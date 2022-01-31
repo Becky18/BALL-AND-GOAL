@@ -78,7 +78,7 @@ function my_keydown(e)
 		}		// Write a code to move ball upward.
 		ball_y=ball_y - block_image_height
 		console.log("block image height =" + block_image_height)
-		console.log("When DOwn arrow key is pressed,X =" + bally_x + " , Y =" + ball_y)
+		console.log("When Down arrow key is pressed,X =" + ball_x + " , Y =" + ball_y)
 		canvas.remove(ball_obj)
 		new_image()
 	
@@ -92,7 +92,7 @@ function my_keydown(e)
 		}	
 		ball_y=ball_y + block_image_height
 		console.log("block image height =" + block_image_height)
-		console.log("When Down arrow key is pressed,X =" + bally_x + " , Y =" + ball_y)
+		console.log("When Down arrow key is pressed,X =" + ball_x + " , Y =" + ball_y)
 		canvas.remove(ball_obj)
 		new_image()
 		// Write a code to move ball downward.
@@ -104,7 +104,7 @@ function my_keydown(e)
 		{
 			ball_x=ball_x - block_image_width
 		console.log("block image width =" + block_image_width)
-		console.log("When DOwn arrow key is pressed,X =" + ball_x + " , Y =" + ball_y)
+		console.log("When Down arrow key is pressed,X =" + ball_x + " , Y =" + ball_y)
 		canvas.remove(ball_obj)
 		new_image()
 			
